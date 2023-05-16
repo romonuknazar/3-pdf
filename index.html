@@ -13,7 +13,7 @@
   <script src="main.js" defer></script>
   <script src="admin.js" defer></script>
   <script src="browser.js" defer></script>
-  </head>
+</head>
 
 <body>
   <div class="browser">
@@ -153,25 +153,31 @@
         <label>Submit date<input type="text" name="submitdate" placeholder="March 15, 2023"></label>
         <label>Receipt id<input type="text" name="receiptdate" placeholder="IOL1234567890"></label>
         <label>Dates end<input type="text" name="datesend" placeholder="March 15, 2023"></label>
-        <label>Кол-во док.(3/5)<input type="number" name="rows" placeholder="Значение 3 или 5"></label>
-        <p style="margin: 0 auto">doc-1</p>
-        <label>Имя<input type="text" name="fname" placeholder=""></label>
-        <label>Др<input type="text" name="fdatebirth" placeholder=""></label>
-        <label>Alien Num<input type="text" name="faliennum" placeholder=""></label>
-        <label>Passport Num<input type="text" name="fpasnum" placeholder=""></label>
-        <label>Expiration Date<input type="text" name="fexpdate" placeholder=""></label>
-        <p style="margin: 0 auto">doc-2</p>
-        <label>Имя<input type="text" name="sname" placeholder=""></label>
-        <label>Др<input type="text" name="sdatebirth" placeholder=""></label>
-        <label>Alien Num<input type="text" name="saliennum" placeholder=""></label>
-        <label>Passport Num<input type="text" name="spasnum" placeholder=""></label>
-        <label>Expiration Date<input type="text" name="sexpdate" placeholder=""></label>
-        <p style="margin: 0 auto">doc-3</p>
-        <label>Имя<input type="text" name="tname" placeholder=""></label>
-        <label>Др<input type="text" name="tdatebirth" placeholder=""></label>
-        <label>Alien Num<input type="text" name="taliennum" placeholder=""></label>
-        <label>Passport Num<input type="text" name="tpasnum" placeholder=""></label>
-        <label>Expiration Date<input type="text" name="texpdate" placeholder=""></label>
+        <label>Кол-во док.<input type="number" name="rows" placeholder="Значение 3 или 5 или 7"></label>
+        <div class="wrapper-doc">
+          <p style="margin: 0 auto">PDF 1</p>
+          <label>Имя<input type="text" name="fname" placeholder=""></label>
+          <label>Др<input type="text" name="fdatebirth" placeholder=""></label>
+          <label>Alien Num<input type="text" name="faliennum" placeholder=""></label>
+          <label>Passport Num<input type="text" name="fpasnum" placeholder=""></label>
+          <label>Expiration Date<input type="text" name="fexpdate" placeholder=""></label>
+        </div>
+        <div class="wrapper-doc">
+          <p style="margin: 0 auto">PDF 2</p>
+          <label>Имя<input type="text" name="sname" placeholder=""></label>
+          <label>Др<input type="text" name="sdatebirth" placeholder=""></label>
+          <label>Alien Num<input type="text" name="saliennum" placeholder=""></label>
+          <label>Passport Num<input type="text" name="spasnum" placeholder=""></label>
+          <label>Expiration Date<input type="text" name="sexpdate" placeholder=""></label>
+        </div>
+        <div class="wrapper-doc">
+          <p style="margin: 0 auto">PDF 3</p>
+          <label>Имя<input type="text" name="tname" placeholder=""></label>
+          <label>Др<input type="text" name="tdatebirth" placeholder=""></label>
+          <label>Alien Num<input type="text" name="taliennum" placeholder=""></label>
+          <label>Passport Num<input type="text" name="tpasnum" placeholder=""></label>
+          <label>Expiration Date<input type="text" name="texpdate" placeholder=""></label>
+        </div>
         <button id="addBtn">Внести данные</button>
         <button id="saveBtn" hidden>Сохранить</button>
         <button id="cancelBtn" hidden>Отмена</button>

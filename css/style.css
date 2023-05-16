@@ -492,6 +492,23 @@ h3 {
   gap: 10px;
 }
 
+.wrapper-doc {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.wrapper-doc:first-of-type{
+  background-color: #6658eb9e;
+}
+
+.wrapper-doc:nth-of-type(2){
+  background-color: #e1eb589e;
+}
+
+.wrapper-doc:nth-of-type(3){
+  background-color: #58eb849e;
+}
 
 #admin label {
   display: flex;
@@ -501,6 +518,7 @@ h3 {
 
 #admin input {
   border: 1px solid black;
+  border-radius: 2px;
 }
 
 #adminPanel button {
